@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 75.0, 316.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -58,7 +71,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 31.5, 316.0, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "+ 3"
+					"text" : "+ 1"
 				}
 
 			}
@@ -158,9 +171,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 31.5, 279.0, 61.0, 22.0 ],
+					"patching_rect" : [ 31.5, 279.0, 68.0, 22.0 ],
 					"style" : "",
-					"text" : "random 5"
+					"text" : "random 10"
 				}
 
 			}
@@ -419,6 +432,13 @@
 					"destination" : [ "obj-56", 0 ],
 					"midpoints" : [ 59.5, 159.0, 59.5, 159.0 ],
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
