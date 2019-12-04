@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 462.0, 90.0, 1008.0, 960.0 ],
+		"rect" : [ 34.0, 77.0, 1619.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 289.0, 975.0, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "/record 1 0",
+					"text" : "/clear bang",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
